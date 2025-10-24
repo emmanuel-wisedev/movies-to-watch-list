@@ -36,14 +36,13 @@ header h1 a {
 }
 
 header button {
-  font: inherit;
-  padding: 0.5rem 1rem;
   background: #f67722;
   border: 1px solid #f67722;
   color: white;
-  border-radius: 6px;
+  border-radius: 10px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
   cursor: pointer;
+  padding: 5px;
 }
 
 header button:hover,
@@ -270,6 +269,50 @@ input:focus {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  header button {
+   font: inherit;
+   padding: 0.5rem 1rem;
+    background: #f67722;
+    border: 1px solid #f67722;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  header button {
+    font: inherit;
+    padding: 0.5rem 1rem;
+    background: #f67722;
+    border: 1px solid #f67722;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+  }
+
+  .dark-mode-container {
+    margin-left: 90%;
+  }
+
+  header i {
+    font-size: 50px;
+  }
+
+  header button {
+    font: inherit;
+    padding: 0.5rem 1rem;
+    background: #f67722;
+    border: 1px solid #f67722;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+  }
+}
 
 /*
   DARK MODE STYLYING
