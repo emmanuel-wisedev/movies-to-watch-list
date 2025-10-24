@@ -288,26 +288,19 @@ input:focus {
     border-radius: 6px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
     cursor: pointer;
+    margin-right: 10%;
   }
 
   .dark-mode-container {
-    margin-left: 90%;
+    margin-left: 82%;
   }
 
   header i {
     font-size: 50px;
+    margin-left: 10%;
   }
 
-  header button {
-    font: inherit;
-    padding: 0.5rem 1rem;
-    background: #f67722;
-    border: 1px solid #f67722;
-    color: white;
-    border-radius: 6px;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
-    cursor: pointer;
-  }
+  
 }
 
 /*
