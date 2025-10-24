@@ -25,14 +25,10 @@ header {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 20);
 }
 
-header h1 {
+header i {
   margin: 0;
-  font-size: 1.5rem;
-  font-family: "Bungee Spice", sans-serif;
-}
-
-header h1 a {
-  text-decoration: none;
+  color: white;
+  font-size: 40px;
 }
 
 header button {
