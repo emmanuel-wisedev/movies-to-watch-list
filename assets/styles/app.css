@@ -310,6 +310,21 @@ input:focus {
   }
 }
 
+@media (min-width: 1280px) {
+  header button {
+    margin-right: 10%;
+  }
+
+  .dark-mode-container {
+    margin-left: 83%;
+  }
+
+  header i {
+    font-size: 40px;
+    margin-left: 10%;
+  }
+}
+
 /*
   DARK MODE STYLYING
 */
